@@ -47,8 +47,8 @@ Se deben implementar dos programas para ejecutar el código implementado:
 * **Modo estadísticas:** El programa cuenta las comparaciones para buscar e insertar claves en el árbol.
 
  El programa solicita los siguientes parámetros:
- * N (int): Tamaño del árbol (número de nodos del árbol)
- * P (int): Número de pruebas
+ * **N** (int): Tamaño del árbol (número de nodos del árbol)
+ * **P** (int): Número de pruebas
 
  Al final del experimento se presentarán por pantalla los datos de entrada y los resultados de ambos experimentos:
 
@@ -56,7 +56,6 @@ Se deben implementar dos programas para ejecutar el código implementado:
 |-------------|----------|----------|----------|----------|----------|
 |**Búsqueda** |   xxxx   |   xxxx   |   xxxx   |   xxxx   |   xxxx   |
 |**Inserción**|   xxxx   |   xxxx   |   xxxx   |   xxxx   |   xxxx   |
-|  **....**   |   ....   |   ....   |   ....   |   ....   |   ....   |
 
 De forma **opcional** se puede:
 * Utilizar el programa desarrollado para realizar un estudio sobre el comportamiento de un árbol binario de búsqueda cuando se incrementa el tamaño del árbol.
@@ -70,7 +69,7 @@ El objetivo de esta práctica es la implementación del **árbol de búsqueda bi
 #### Compilación
 
 ```bash
-$ g++ main/main.cpp cpp/*.cpp -std=c++11 -o main.out
+$ g++ main/main.cpp -o main.out
 ```
 
 #### Ejecución
